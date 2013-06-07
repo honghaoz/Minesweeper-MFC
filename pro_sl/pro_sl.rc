@@ -1,0 +1,335 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 扫雷"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,21
+    LTEXT           "扫雷 206自制版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2009",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_PRO_SL_DIALOG DIALOGEX 0, 0, 321, 225
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "扫雷"
+MENU IDR_MENU1
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,229,193,40,20
+    PUSHBUTTON      "新游戏",IDC_BUTTON1,169,193,43,23
+    PUSHBUTTON      "Button2",IDC_BUTTON2,247,198,9,13,NOT WS_VISIBLE
+    PUSHBUTTON      "0",IDC_TIME,21,197,47,18,BS_FLAT
+    PUSHBUTTON      "",IDC_LAST,87,199,47,18,BS_FLAT
+    LTEXT           "Static",IDC_STATIC12,129,12,62,20,NOT WS_VISIBLE
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 272, 119
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "游戏统计"
+FONT 10, "System"
+BEGIN
+    LTEXT           "已玩",IDC_STATIC,47,19,18,8
+    LTEXT           "胜利",IDC_STATIC,98,19,18,8
+    PUSHBUTTON      "确定",IDCANCEL,80,98,39,14
+    LTEXT           "",IDC_PLAY1,67,19,24,9
+    LTEXT           "最佳时间",IDC_STATIC,152,18,33,8
+    LTEXT           "",IDC_BTIME1,192,16,24,9
+    LTEXT           "",IDC_WIN1,121,18,24,9
+    LTEXT           "简单",IDC_STATIC,15,19,17,8
+    LTEXT           "已玩",IDC_STATIC,47,41,18,8
+    LTEXT           "胜利",IDC_STATIC,98,41,18,8
+    LTEXT           "",IDC_PLAY2,67,41,24,9
+    LTEXT           "最佳时间",IDC_STATIC,152,40,33,8
+    LTEXT           "",IDC_WIN2,121,40,24,9
+    LTEXT           "中等",IDC_STATIC,15,41,17,8
+    LTEXT           "已玩",IDC_STATIC,47,61,18,8
+    LTEXT           "胜利",IDC_STATIC,98,61,18,8
+    LTEXT           "",IDC_PLAY3,67,61,24,9
+    LTEXT           "最佳时间",IDC_STATIC,152,60,33,8
+    LTEXT           "",IDC_WIN3,121,60,24,9
+    LTEXT           "难",IDC_STATIC,15,61,17,8
+    LTEXT           "",IDC_BTIME2,190,40,24,9
+    LTEXT           "",IDC_BTIME3,194,60,24,9
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 136, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "自定义"
+FONT 10, "System"
+BEGIN
+    LTEXT           "行数(<20)",IDC_STATIC,12,13,40,9
+    LTEXT           "列数(<20)",IDC_STATIC,11,33,37,10
+    LTEXT           "雷数",IDC_STATIC,12,55,25,9
+    PUSHBUTTON      "确定",IDC_OK,39,74,21,18
+    EDITTEXT        IDC_hang,58,13,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_lie,58,32,29,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_lei,57,54,29,12,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "pro_sl Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "pro_sl\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2009\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "pro_sl.EXE\0"
+            VALUE "ProductName", "pro_sl 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PRO_SL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 314
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 218
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 265
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 129
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "游戏(G)"
+    BEGIN
+        MENUITEM "新游戏(N)\tF2",               IDC_BUTTON1
+        MENUITEM SEPARATOR
+        POPUP "选项(O)\tF4"
+        BEGIN
+            MENUITEM "简单",                        ID_EASY
+            MENUITEM "中等",                        ID_MID
+            MENUITEM "难",                          ID_HARD
+            MENUITEM "自定义",                      ID_OWN
+        END
+        MENUITEM "游戏统计(S)\tF5",             ID_STATISTIC
+        MENUITEM SEPARATOR
+        MENUITEM "退出(Q)",                     IDCANCEL
+    END
+    POPUP "帮助(H)"
+    BEGIN
+        MENUITEM "关于(A)",                     IDD_ABOUTBOX
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICONCLEAR           ICON    DISCARDABLE     "res\\icon10.ico"
+IDI_ICON1               ICON    DISCARDABLE     "res\\icon01.ico"
+IDI_ICON2               ICON    DISCARDABLE     "res\\icon02.ico"
+IDI_ICON3               ICON    DISCARDABLE     "res\\icon03.ico"
+IDI_ICON4               ICON    DISCARDABLE     "res\\icon04.ico"
+IDI_ICON5               ICON    DISCARDABLE     "res\\icon05.ico"
+IDI_ICON6               ICON    DISCARDABLE     "res\\icon06.ico"
+IDI_ICON7               ICON    DISCARDABLE     "res\\icon07.ico"
+IDI_ICON8               ICON    DISCARDABLE     "res\\icon08.ico"
+IDI_ICON9               ICON    DISCARDABLE     "mine.ico"
+IDI_ICON11              ICON    DISCARDABLE     "res\\icon11.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 扫雷 206自制版(&A)..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_BoomBTN             "1"
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\pro_sl.ico"
+IDI_ICON10              ICON    DISCARDABLE     "res\\ico00001.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\pro_sl.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\pro_sl.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

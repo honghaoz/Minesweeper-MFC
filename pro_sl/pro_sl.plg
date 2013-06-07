@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: pro_sl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\xyzx\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/pro_sl.pdb" /debug /machine:I386 /out:"Debug/pro_sl.exe" /pdbtype:sept 
+.\Debug\info_Dialog.obj
+.\Debug\MyButton.obj
+.\Debug\owndefine.obj
+.\Debug\pro_sl.obj
+.\Debug\pro_slDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\pro_sl.res
+]
+Creating command line "link.exe @C:\DOCUME~1\xyzx\LOCALS~1\Temp\RSP53.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+pro_sl.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
